@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",                          /* Resolves modules in the Node.js style */
+    "target": "es2016",                                   /* Compile to ES2016 JavaScript */
+    "module": "commonjs",                                 /* Use commonjs module system */
+    "outDir": "./dist",                                   /* Output compiled files to the 'dist' folder */
+    "rootDir": "./src",                                   /* Root directory for source files */
+    "esModuleInterop": true,                              /* Enables default import interoperability with commonjs modules */
+    "forceConsistentCasingInFileNames": true,              /* Ensure consistent casing in filenames */
+    "skipLibCheck": true,                                  /* Skip type checking of declaration files */
+    "strict": true,                                       /* Enable strict type checking */
+    "noImplicitAny": true,                                /* Ensure that 'any' type is not used implicitly */
+    "sourceMap": true,                                    /* Generate sourcemaps for debugging */
+    "declaration": true,                                  /* Generate declaration files (.d.ts) */
+    "resolveJsonModule": true,                            /* Allow importing JSON files as modules */
+    "lib": ["es2016", "dom"]                              /* Include standard library files for ES6 and DOM */
+  },
+  "include": [
+    "src/**/*"                                            /* Include all files in the 'src' folder */
+  ],
+  "exclude": [
+    "node_modules"                                        /* Exclude the 'node_modules' folder */
+  ]
+}
